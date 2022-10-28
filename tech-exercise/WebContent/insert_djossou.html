@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+header {
+    background-color:blue;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:blue;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Insert Books </h1>
+</header>
+
+<nav>
+<a href="/tech-exercise/search_djossou.html">Search Books</a> <br>
+</nav>
+
+<section>
+	<h1>Book Insert</h1>
+	
+	<form action="SimpleFormInsert" method="POST">
+	
+		Book Title: <input type="text" name="bookTitle"> <br />
+		Author First Name: <input type="text" name="fName"> <br />
+		Author Last Name: <input type="text" name="lName"> <br />
+		Price: <input type="text" name="price"> <br />
+		ISBN: <input type="text" name="isbn"> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>
